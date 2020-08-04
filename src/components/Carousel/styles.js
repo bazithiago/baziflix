@@ -45,6 +45,11 @@ export const VideoCardList = styled.ul`
   li {
     margin-right: 16px;
   }
+
+  ::-webkit-scrollbar {
+    width: 0px;
+}
+
 `;
 
 export const VideoCardGroupContainer = styled.section`
